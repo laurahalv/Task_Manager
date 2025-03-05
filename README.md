@@ -1,6 +1,6 @@
 # Task Manager
 
-Um gerenciador de tarefas simples com foco em organização e funcionalidade. Este projeto utiliza tecnologias modernas para fornecer um sistema robusto e intuitivo.
+Um gerenciador de tarefas simples que permite o crud de um tarefas em um frontend.
 
 ## 🛠️ Tecnologias utilizadas
 
