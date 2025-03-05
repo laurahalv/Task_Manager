@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="css/tasks.css">
+</head>
+<body>
+    <h2 id="taskManager">Task Manager</h2>
+    <button id="switch-theme"><img id="darkmode" src="https://img.icons8.com/?size=100&id=59841&format=png&color=000000" alt=""></button>
+    <div class="greetings">
+    <h3 id="username"></h3>
+    <p id="totalTask"></p>
+</div>
+    <hr>
+    <div id="createTask">
+        <form id="createTaskForm">
+            <div id="taskFormFit">
+            <h3>Create Task</h3>
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <button type="submit">Create Task</button>
+            <button type="button" id="closeCreate">Close</button> 
+        </div>
+        </form>
+    </div>
+
+    <div id="teste">
+        <div id="barraTask">
+            <h3>Your Tasks</h3>
+        </div>
+        <ul id="taskList">
+            <div id="taskListHeader"></div>
+        </ul>
+    </div>
+
+    <script src="js/tasks.js"></script>
+</body>
+</html>

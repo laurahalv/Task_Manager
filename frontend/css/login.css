@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); /* Estilo geral */
+body {
+    font-family: Poppins, Arial;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #c5c2c2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    margin: 20px auto;
+}
+
+.form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #787070;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #218838;
+}
+
+.form p {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
